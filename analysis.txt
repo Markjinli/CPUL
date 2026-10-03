@@ -1,0 +1,42 @@
+=== CPU Database Summary ===
+
+amd_cpu: 2001 records
+  Fields: ['core_clk_max', 'id_serie', 'cores', 'order_number', 'name', 'launch', 'id', 'core_clk']
+  Sample: {"core_clk_max": "75", "id_serie": "1", "cores": "1", "order_number": "1", "name": "AMD K5 75", "launch": "199601", "id": "1", "core_clk": "75"}
+
+amd_cpu_data: 2324 records
+  Fields: ['foundry', 'tdp', 'bus', 'graphics_clk', 'notes', 'bm_geekbench4_single', 'bm_geekbench5_single', 'graphics_core_config', 'fab', 'cache_l2', 'cache_l4', 'cache_l3', 'bm_geekbench4_multi', 'instruction_set', 'features', 'bm_cinebenchr23_multi', 'pcie_lanes', 'mem_bandwidth', 'ctdp_down', 'cores', 'mcm', 'mem_ecc', 'mem_channels', 'core_arch', 'variant', 'graphics_clk_boost', 'id', 'max_temp', 'released', 'lauch_price', 'mcm_config', 'sspec', 'npu_perf', 'multiplier', 'bm_cinebenchr20_multi', 'graphics_fp32', 'bus_clk', 'core_config', 'core_clk', 'bm_cinebenchr15_single', 'core_clk_boost_detail', 'core_clk_boost', 'fab_detail', 'name', 'vcore', 'part_number', 'bm_cinebenchr15_multi', 'transistor_count', 'multiplier_unlock', 'pcie_config', 'cache_l1_inst', 'mem_type', 'core_stepping', 'graphics_name', 'npu_name', 'bm_cinebenchr20_single', 'multiplier_max', 'data_width', 'ports', 'networks', 'code_name', 'die_size', 'id_cpu', 'cache_l1_data', 'multi_cpus', 'image_author', 'pkg_size', 'bus_speed', 'threads', 'bm_geekbench5_multi', 'image_cpu', 'launch', 'cache_slc', 'ctdp_up', 'pcie_revision', 'bm_cinebenchr23_single', 'mem_max', 'socket']
+  Sample: {"foundry": null, "tdp": "9.5", "bus": "FSB", "graphics_clk": null, "notes": null, "bm_geekbench4_single": null, "bm_geekbench5_single": null, "graphics_core_config": null, "fab": "350.0", "cache_l2": null, "cache_l4": null, "cache_l3": null, "bm_geekbench4_multi": null, "instruction_set": "x86", "f
+
+amd_products: 48 records
+  Fields: ['id', 'family', 'type', 'product_name', 'order_product']
+  Sample: {"id": "1", "family": "k5", "type": "dk", "product_name": "K5", "order_product": "1"}
+
+amd_series: 223 records
+  Fields: ['id_product_family', 'serie_name', 'order_family', 'id']
+  Sample: {"id_product_family": "1", "serie_name": "K5", "order_family": "1", "id": "1"}
+
+amd_socket: 64 records
+  Fields: ['name', 'id']
+  Sample: {"name": "AM1", "id": "1"}
+
+intel_cpu: 3925 records
+  Fields: ['core_clk_max', 'id_serie', 'cores', 'order_number', 'name', 'launch', 'id', 'core_clk']
+  Sample: {"core_clk_max": "60", "id_serie": "1", "cores": "1", "order_number": "1", "name": "Intel Pentium 60 MHz", "launch": "199301", "id": "1", "core_clk": "60"}
+
+intel_cpu_data: 4132 records
+  Fields: ['foundry', 'tdp', 'bus', 'graphics_clk', 'notes', 'bm_geekbench4_single', 'bm_geekbench5_single', 'graphics_core_config', 'fab', 'cache_l2', 'cache_l4', 'cache_l3', 'bm_geekbench4_multi', 'instruction_set', 'features', 'bm_cinebenchr23_multi', 'pcie_lanes', 'mem_bandwidth', 'ctdp_down', 'cores', 'mcm', 'mem_ecc', 'mem_channels', 'core_arch', 'variant', 'graphics_clk_boost', 'id', 'max_temp', 'released', 'lauch_price', 'mcm_config', 'sspec', 'npu_perf', 'multiplier', 'bm_cinebenchr20_multi', 'graphics_fp32', 'bus_clk', 'core_config', 'core_clk', 'bm_cinebenchr15_single', 'core_clk_boost_detail', 'core_clk_boost', 'fab_detail', 'name', 'vcore', 'part_number', 'bm_cinebenchr15_multi', 'transistor_count', 'multiplier_unlock', 'pcie_config', 'cache_l1_inst', 'mem_type', 'core_stepping', 'graphics_name', 'npu_name', 'bm_cinebenchr20_single', 'multiplier_max', 'data_width', 'ports', 'networks', 'code_name', 'die_size', 'id_cpu', 'cache_l1_data', 'multi_cpus', 'image_author', 'pkg_size', 'bus_speed', 'threads', 'bm_geekbench5_multi', 'image_cpu', 'launch', 'cache_slc', 'ctdp_up', 'pcie_revision', 'bm_cinebenchr23_single', 'mem_max', 'socket']
+  Sample: {"foundry": "Intel", "tdp": "14.6", "bus": "FSB", "graphics_clk": null, "notes": null, "bm_geekbench4_single": null, "bm_geekbench5_single": null, "graphics_core_config": null, "fab": "800.0", "cache_l2": null, "cache_l4": null, "cache_l3": null, "bm_geekbench4_multi": null, "instruction_set": "x86"
+
+intel_products: 57 records
+  Fields: ['id', 'family', 'type', 'product_name', 'order_product']
+  Sample: {"id": "1", "family": "atom", "type": "dk", "product_name": "Atom", "order_product": "3"}
+
+intel_series: 285 records
+  Fields: ['id_product_family', 'serie_name', 'order_family', 'id']
+  Sample: {"id_product_family": "3", "serie_name": "Pentium (Legacy)", "order_family": "1", "id": "1"}
+
+intel_socket: 147 records
+  Fields: ['name', 'id']
+  Sample: {"name": "BGA1288", "id": "1"}
+

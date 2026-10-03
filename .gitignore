@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+cpus_decrypted.json
+gpus_decrypted.json
+.DS_Store
+Thumbs.db
